@@ -1,0 +1,170 @@
+
+.App {
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: #e8f9fd;
+  /* background-image: url('/Users/mac/Desktop/marawildlife/frontend/src/icons/Screenshot 2024-07-24 at 23.57.17.png');  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+ 
+}
+
+
+/*background-color: #f3fbfd; */
+/* background-color: #e8f9fd; */
+
+.map-container {
+  height: 1000px; /* Adjust height as needed */
+  width: 100%; /* Extend full width to the right */
+   overflow: hidden; /* Optional: Ensure the content does not overflow */
+  margin-top: 0px;
+
+}
+
+.options-menu {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #95948f;
+  background-color: #ffff;
+}
+
+.statistics {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #95948f;
+  background-color: #ffff;
+}
+
+h3 {
+  font-size: 2rem; /* Adjust the size as needed */
+  color: #2c3e50; /* Dark color for better readability */
+  text-align: center; /* Center the text */
+  margin: 1rem 0; /* Add some spacing above and below */
+  font-family: 'Roboto', sans-serif; /* Apply the cool font */
+  font-weight: 700; /* Make the font bold */
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #ffff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+/* Style the header div */
+.header {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+/* Style the dropdown toggle button */
+.dropdown-toggle {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #0056b3;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual dropdown items */
+.dropdown-item {
+  font-size: 14px;
+  color: #333;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+
+/*blinking*/
+
+.blinking-icon {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.leaflet-arrowheads {
+  fill: #FF69B4; /* Pink color for arrowheads */
+  stroke: #FF69B4; /* Pink color for arrowhead border */
+}
+
+/* AdminPage.css */
+
+/* Container for the entire page */
+.container {
+  margin-top: 20px;
+}
+
+/* Header styles */
+h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+  
+  /* User details styles */
+  div {
+    background: #f3fbfd;;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+

@@ -1,0 +1,66 @@
+/* src/ChatComponent.css */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    height: 230px; /* Match the height of the map container */
+    width: 340px; /* Adjust width as needed */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-box {
+    flex: 1;
+    padding: 10px; /* Adjust padding as needed */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adjust gap as needed */
+  }
+  
+  .chat-message {
+    border-radius: 5px;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #f1f1f1;
+  }
+  
+  .chat-input {
+    padding: 10px; /* Adjust padding as needed */
+    border-top: 1px solid #ddd;
+    display: flex;
+    gap: 10px; /* Adjust gap as needed */
+    align-items: center;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .chat-input button {
+    padding: 10px; /* Adjust padding as needed */
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #0056b3;
+  }
+  
